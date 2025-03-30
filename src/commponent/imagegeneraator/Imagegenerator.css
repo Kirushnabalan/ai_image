@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f; /* Dark background for a classic AI theme */
+    color: #ffffff; /* White text for contrast */
+}
+
+.image-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #2a2a3b; /* Slightly lighter background for the card */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin: 50px auto;
+    border: 1px solid #444; /* Subtle border for a clean look */
+}
+
+.image-generator__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-generator__title h1 {
+    font-size: 2.5rem;
+    color: #00d4ff; /* Bright accent color for the title */
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px rgba(0, 212, 255, 0.5);
+}
+
+.image-generator__title p {
+    font-size: 1.2rem;
+    color: #cccccc; /* Softer text color for the description */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-generator__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #00d4ff; /* Accent border for the image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-generator__image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 212, 255, 0.7);
+}
